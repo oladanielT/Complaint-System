@@ -29,7 +29,6 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
 INSTALLED_APPS = [
     #custom apps
     'rest_framework',
@@ -129,7 +128,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'support_db',
+        'NAME': 'complaint_db',
         'USER': 'support_dev',
         'PASSWORD': 'support_pass',
         'HOST': 'localhost',
