@@ -1,0 +1,10 @@
+Django>=4.2
+djangorestframework>=3.14
+djangorestframework-simplejwt>=5.3
+mysqlclient>=2.2  # only if you're using MySQL
+python-decouple>=3.8
+gunicorn>=21.2  # for deployment (optional)
+scikit-learn>=1.4  # for predictive modeling
+pandas>=2.2  # optional, for dataset handling
+numpy>=1.26  # required by sklearn
+
